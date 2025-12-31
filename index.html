@@ -133,13 +133,137 @@
                     <article><img src="./asset/image/banner_06.jpg" alt="Image of Malaysia International Jewelry Fair">
                     </article>
                 </div>
+                <div class="hero-social-links">
+                    <a href=""><img id="facebook-icon" src="./asset/image/Facebook.png"
+                            alt="Click to go to our facebook page"></a>
+                    <a href=""><img id="instagram-icon" src="./asset/image/Instagram.png"
+                            alt="Click to go to our instagram page"></a>
+                    <a href=""><img id="twitter-icon" src="./asset/image/Twitter.png"
+                            alt="Click to go to our twitter page"></a>
+                    <a href=""><img id="youtube-icon" src="./asset/image/Youtube.png"
+                            alt="Click to go to our youtube page"></a>
+
+                </div>
+                <button id="btn-drop-section">
+                    <img src="./asset/image/down icon.png" alt="Click to see the next section">
+                </button>
             </div>
         </section>
+        <!-- signup form -->
+        <section class="form-section">
+            <div id="form-wrapper">
+                <h2>Became a Member</h2>
+                <form action="" method="POST">
+                    <div>
+                        <h3 class="margin-bottom-1-2">
+                            CREATE A NEW ACCOUNT
+                        </h3>
+                        <p class="margin-bottom-2">
+                            <span class="color-red">*</span>All fields required
+                        </p>
+                    </div>
+                    <div class="form-body">
+                        <!--first col for form -->
+                        <article class="form-col">
+                            <div>
+                                <label for="first-name"><span class="color-red">*</span>First Name</label>
+                                <input type="text" name="first-name" id="first-name" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="last-name"><span class="color-red">*</span>Last Name</label>
+                                <input type="text" name="last-name" id="last-name" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="dob"><span class="color-red">*</span>Date of Birth</label>
+                                <input type="date" name="dob" id="dob" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="gender"><span class="color-red">*</span>Gender</label>
+                                <select name="gender" id="gender" class="form-control" required>
+                                    <option value="" disabled>Please Select</option>
+                                    <option value="male" disabled>Male</option>
+                                    <option value="female" disabled>Female</option>
+                                </select>
+                            </div>
+                        </article>
+                        <!--second col for form -->
+                        <article class="form-col">
+                            <div>
+                                <label for="email"><span class="color-red">*</span>Email Address</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="password"><span class="color-red">*</span>Password</label>
+                                <input type="password" name="password" id="password" class="form-control" required>
+                                <p class="form-description">
+                                    Your password must be between 8 - 20 characters in length. Your password must
+                                    contain a
+                                    combination of letters, numbers, and at-least one special characters e.g. vans@123.
+                                </p>
+                            </div>
+                            <div>
+                                <label for="password-confirmation"><span class="color-red">*</span>Confirm
+                                    Password</label>
+                                <input type="password" name="password-confirmation" id="password-confirmation"
+                                    class="form-control" required>
+                            </div>
+                        </article>
+                    </div>
 
+                    <!--create account button's group  -->
+                    <article class="form-footer">
+                        <div>
+                            <input type="checkbox" name="latest-news" id="latest-news" required>
+                            <label for="latest-news">Sign up for the latest news</label>
+                        </div>
+                        <button type="submit" class="btn">
+                            CREATE ACCOUNT
+                        </button>
+                    </article>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- footer -->
+    <footer role="contentinfo">
+        <div class="footer-wrapper">
+            <article>
+                <img src="./asset/image/logo.png" alt="Logo of Malaysia International Jewelry Fair" id="footer-logo">
+                <h2 class="text-center">
+                    Discover Exquisite Jewelry from Top Exhibitors
+                </h2>
 
+            </article>
+            <article>
+                <h2 class="text-center">
+                    Links
+                </h2>
+                <a href="">Exhibitors</a>
+                <a href="">Jewelry Collections</a>
+                <a href="">Event Exhibition Info</a>
+            </article>
+            <article>
+                <h2 class="text-center">
+                    Contact
+                </h2>
+                <div>
+                    hello@jewelry.my
+                </div>
+                <div>
+                    www.jewelry.my
+                </div>
+                <div>
+                    Shah Alam, Selangor, Malaysia
+                </div>
+            </article>
+        </div>
+
+    </footer>
+
+    <div id="copyright" class="text-center padding-top-1 padding-bottom-1 padding-left-2 padding-right-2">
+        &copy; 2026 Malaysia International Jewelry Fair. All Rights Reserved.
+    </div>
     <script src="./app.js"></script>
 </body>
 
