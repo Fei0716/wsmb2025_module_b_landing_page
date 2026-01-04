@@ -149,11 +149,154 @@
                 </button>
             </div>
         </section>
+
+        <!-- exhibitors section -->
+        <section class="exhibitor-section">
+            <div class="exhibitor-wrapper">
+                <h2 class="margin-bottom-1-2 text-center">Exhibitors</h2>
+                <p class="margin-bottom-1 text-center">Meet the exhibitors for the events</p>
+
+                <div class="exhibitor-card-group-wrapper">
+                    <div class="exhibitor-card-group">
+                        <article class="exhibitor-card">
+                            <img src="./asset/image/exhibitor_01.jpg" alt="Heritage Gold Malaysia">
+                            <div class="exhibitor-card-text">
+                                <h3>Heritage Gold Malaysia </h3>
+                                <div>Malaysia </div>
+                                <button class="btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </article>
+                        <article class="exhibitor-card">
+                            <img src="./asset/image/exhibitor_02.jpg" alt="Lumière Diamonds">
+                            <div class="exhibitor-card-text">
+                                <h3>Lumière Diamonds </h3>
+                                <div>France </div>
+                                <button class="btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </article>
+                        <article class="exhibitor-card">
+                            <img src="./asset/image/exhibitor_03.jpg" alt="Venetian Oro Designs">
+                            <div class="exhibitor-card-text">
+                                <h3>Venetian Oro Designs </h3>
+                                <div>Italy </div>
+                                <button class="btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </article>
+                        <article class="exhibitor-card">
+                            <img src="./asset/image/exhibitor_04.jpg" alt="Siam Gemstones Co.">
+                            <div class="exhibitor-card-text">
+                                <h3>Siam Gemstones Co. </h3>
+                                <div>Thailand </div>
+                                <button class="btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </article>
+                        <article class="exhibitor-card">
+                            <img src="./asset/image/exhibitor_05.jpg" alt="Imperial Jade Studio">
+                            <div class="exhibitor-card-text">
+                                <h3>Imperial Jade Studio </h3>
+                                <div>China </div>
+                                <button class="btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </article>
+                        <article class="exhibitor-card">
+                            <img src="./asset/image/exhibitor_06.jpg" alt="Emirates Luxury Jewelers">
+                            <div class="exhibitor-card-text">
+                                <h3>Emirates Luxury Jewelers </h3>
+                                <div>UAE </div>
+                                <button class="btn">
+                                    Read More
+                                </button>
+                            </div>
+                        </article>
+
+
+                    </div>
+                    <button id="btn-left">
+                        <img src="./asset/image/down icon.png" alt="Click to see the next section">
+                    </button>
+                    <button id="btn-right">
+                        <img src="./asset/image/down icon.png" alt="Click to see the next section">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- jewelry collection section -->
+        <section class="showcase-section">
+            <div class="showcase-wrapper">
+                <h2 class="margin-bottom-1-2 text-center">Jewelry Collections</h2>
+                <p class="margin-bottom-1 text-center">Discover our exclusive masterpieces</p>
+
+                <div class="showcase-card-group-wrapper">
+                    <div class="showcase-card-group">
+                        <article class="showcase-card">
+                            <img src="./asset/image/jewelry_collection_01.jpg" alt="The Royal Sapphire Series">
+                            <div class="showcase-card-text">
+                                <h3>The Royal Sapphire Series</h3>
+                                <p>A collection of deep blue sapphires elegantly set in 18k white gold bands.</p>
+                            </div>
+                        </article>
+
+                        <article class="showcase-card">
+                            <img src="./asset/image/jewelry_collection_02.jpg" alt="Golden Heritage Intricate">
+                            <div class="showcase-card-text">
+                                <h3>Golden Heritage Intricate</h3>
+                                <p>24k gold necklaces inspired by traditional Malaysian craftsmanship.</p>
+                            </div>
+                        </article>
+
+                        <article class="showcase-card">
+                            <img src="./asset/image/jewelry_collection_03.jpg" alt="Ocean's Tear Pearls">
+                            <div class="showcase-card-text">
+                                <h3>Ocean's Tear Pearls</h3>
+                                <p>Lustrous South Sea pearls paired with minimal silver accents for modern elegance.</p>
+                            </div>
+                        </article>
+
+                        <article class="showcase-card">
+                            <img src="./asset/image/jewelry_collection_04.jpg" alt="Crimson Ruby Essence">
+                            <div class="showcase-card-text">
+                                <h3>Crimson Ruby Essence</h3>
+                                <p>Fiery red rubies surrounded by a halo of sparkling diamonds.</p>
+                            </div>
+                        </article>
+
+                        <article class="showcase-card">
+                            <img src="./asset/image/jewelry_collection_05.jpg" alt="Emerald Forest">
+                            <div class="showcase-card-text">
+                                <h3>Emerald Forest</h3>
+                                <p>Vibrant Colombian emeralds cut into timeless vintage geometric shapes.</p>
+                            </div>
+                        </article>
+
+                        <article class="showcase-card">
+                            <img src="./asset/image/jewelry_collection_06.jpg" alt="Starlight Diamond Set">
+                            <div class="showcase-card-text">
+                                <h3>Starlight Diamond Set</h3>
+                                <p>Flawless diamonds crafted to maximize light reflection and brilliance.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="showcase-dots" id="showcase-dots"></div>
+                </div>
+            </div>
+        </section>
         <!-- signup form -->
         <section class="form-section">
             <div id="form-wrapper">
                 <h2>Became a Member</h2>
-                <form action="" method="POST">
+                <form action="" method="POST" id="form-signup" novalidate>
                     <div>
                         <h3 class="margin-bottom-1-2">
                             CREATE A NEW ACCOUNT
@@ -180,9 +323,9 @@
                             <div>
                                 <label for="gender"><span class="color-red">*</span>Gender</label>
                                 <select name="gender" id="gender" class="form-control" required>
-                                    <option value="" disabled>Please Select</option>
-                                    <option value="male" disabled>Male</option>
-                                    <option value="female" disabled>Female</option>
+                                    <option value="" disabled selected>Please Select</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
                                 </select>
                             </div>
                         </article>
@@ -221,8 +364,12 @@
                         </button>
                     </article>
                 </form>
+                <button id="btn-up-section">
+                    <img src="./asset/image/down icon.png" alt="Click to see the next section">
+                </button>
             </div>
         </section>
+
     </main>
 
     <!-- footer -->
@@ -264,6 +411,12 @@
     <div id="copyright" class="text-center padding-top-1 padding-bottom-1 padding-left-2 padding-right-2">
         &copy; 2026 Malaysia International Jewelry Fair. All Rights Reserved.
     </div>
+
+    <!-- toast message -->
+    <div id="toast-container" class="toast hidden">
+        <div id="toast-message"></div>
+    </div>
+
     <script src="./app.js"></script>
 </body>
 
